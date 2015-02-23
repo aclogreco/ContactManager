@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "ContactManager3093",
+            "location": "East US 2"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "ContactManager3093_db",
+                "serverName": "sak1i421cr",
+                "user": "dbUser_CU",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US"
+            }
+        ]
+    }
+}

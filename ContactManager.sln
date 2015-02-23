@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager", "ContactManager\ContactManager.csproj", "{C7F41C02-4782-4729-BE2E-F233B4B9EEE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{A9219946-F21F-4501-8E07-7C46A65F1CDA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{9A73B7F3-E559-408D-ACE1-98B217C8D84C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ContactManager-WAWS-dev.json = PublishScripts\Configurations\ContactManager-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D23050CA-85C8-4C0F-8390-D452BEABB505}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F41C02-4782-4729-BE2E-F233B4B9EEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F41C02-4782-4729-BE2E-F233B4B9EEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F41C02-4782-4729-BE2E-F233B4B9EEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F41C02-4782-4729-BE2E-F233B4B9EEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A73B7F3-E559-408D-ACE1-98B217C8D84C} = {A9219946-F21F-4501-8E07-7C46A65F1CDA}
+	EndGlobalSection
+EndGlobal
