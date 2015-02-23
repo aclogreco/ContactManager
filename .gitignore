@@ -8,14 +8,14 @@
 *.sln.docstates
 
 # Build results
-ContactManger/[Dd]ebug/
-ContactManger/[Dd]ebugPublic/
-ContactManger/[Rr]elease/
-ContactManger/x64/
-ContactManger/build/
-ContactManger/bld/
-ContactManger/[Bb]in/
-ContactManger/[Oo]bj/
+ContactManager/[Dd]ebug/
+ContactManager/[Dd]ebugPublic/
+ContactManager/[Rr]elease/
+ContactManager/x64/
+ContactManager/build/
+ContactManager/bld/
+ContactManager/[Bb]in/
+ContactManager/[Oo]bj/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
@@ -155,8 +155,8 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-ContactManger/App_Data/*.mdf
-ContactManger/App_Data/*.ldf
+ContactManager/App_Data/*.mdf
+ContactManager/App_Data/*.ldf
 
 # Business Intelligence projects
 *.rdl.data
@@ -179,5 +179,5 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-ContactManger\Properties\PublishProfiles*/
-ContactManger/Properties/PublishProfiles/ContactManger.pubxml
+ContactManager\Properties\PublishProfiles*/
+ContactManager/Properties/PublishProfiles/ContactManger.pubxml
